@@ -1,0 +1,19 @@
+{
+  "name": "drawchat",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/icons": "^4.9.1",
+    "express": "^4.17.1",
+    "react-dom": "^16.13.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
