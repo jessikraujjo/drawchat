@@ -13,9 +13,8 @@ const sockets = socketio(server)
   console.log('connect');
 });*/
 
-server.listen(3000, () => {
-  console.log(`> Server listening on port: 3000`)
-}) 
+server.listen(process.env.PORT || 3333) ;
+
 var numUsers = 0;
 
 sockets.on('connection', (socket) => {
